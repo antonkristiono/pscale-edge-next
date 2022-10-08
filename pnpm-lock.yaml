@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@planetscale/database': ^1.4.0
   eslint: 8.25.0
   eslint-config-next: 12.3.1
   next: 12.3.1
@@ -8,6 +9,7 @@ specifiers:
   react-dom: 18.2.0
 
 dependencies:
+  '@planetscale/database': 1.4.0
   next: 12.3.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -217,6 +219,11 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
+
+  /@planetscale/database/1.4.0:
+    resolution: {integrity: sha512-lva57Z/Nz57ocB3dwaWPDGMbb+dj5HtooVB9c0DPcAF9SHbQyfovDyGK5bDgcmCMVoonfblcYv7fr+WBLc3xNw==}
+    engines: {node: '>=16'}
+    dev: false
 
   /@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
